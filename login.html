@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:500|Tangerine:700&display=swap" rel="stylesheet">
+
+    <title>Mom Deux - Sign in / Sign up</title>
+</head>
+
+<body style="background-image: url(img/bulletin-board-3127287_1920.jpg);">
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <a href="#"><img src="img/MomDeuxLogo_smallest.png" class="img-fluid" /></a>
+                </div>
+                <div class="col">
+                    <span class="momText">Mom</span><span class="deuxText">Deux</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--<nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#momDeuxNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="=collapse navbar-collapse" id="momDeuxNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calendar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Locator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Messaging</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shopping List</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-md-5">
+                <div class="form loginForm">
+                    <div class="mb-3">
+                        <div class="col-md-12 text-center" id="loginLabel">
+                            <h1>Login</h1>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="userName">Username</label>
+                            <input type="text" id="userName" name="userName" class="form-control" alt="Enter email" placeholder="Enter email/username" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="form-control" alt="Enter password" placeholder="Enter password" />
+                        </div>
+                        <div class="form-group align-items-center ml-4">
+                            <input type="checkbox" role="checkbox" id="rememberMe" class="form-check-input" />
+                            <label for="rememberMe" class="col col-sm-6 form-check-label">Remember me</label>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-block btn-primary tx-tfm">Sign in</button>
+                        </div>
+                        <div class="form-group mt-3 mb-1">
+                            <p class="text-center"><a href="#">Forgot username/password?</a></p>
+                        </div>
+                        <div class="form-group mb-3">
+                            <p class="text-center"><a href="#">Not Registered? Sign up now.</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-sm mt-3">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#momDeuxNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="=collapse navbar-collapse" id="momDeuxNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Calendar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Chores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Locator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Messaging</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shopping List</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
